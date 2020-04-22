@@ -16,7 +16,7 @@ import java.util.List;
  * @author: xh
  * @create: 2020-04-19 18:02
  */
-@RestController
+@RestController("/hello")
 public class HelloController {
 
 

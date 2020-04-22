@@ -15,7 +15,7 @@ import java.sql.SQLException;
  * @author: xh
  * @create: 2020-04-19 19:00
  */
-@RestController
+@RestController("/user")
 public class UserController {
 
     @Autowired

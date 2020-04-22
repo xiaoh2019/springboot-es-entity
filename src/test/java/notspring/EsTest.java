@@ -16,7 +16,7 @@ import java.util.Map;
  * @author: xh
  * @create: 2020-04-19 21:42
  */
-public class Test1 {
+public class EsTest {
 
     @Test
     public void test()throws Exception{

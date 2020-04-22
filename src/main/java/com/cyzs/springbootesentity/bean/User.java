@@ -1,6 +1,8 @@
 package com.cyzs.springbootesentity.bean;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * @description:
@@ -8,6 +10,8 @@ import lombok.Data;
  * @create: 2020-04-19 18:02
  */
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class User {
 
     private Integer id;
@@ -19,4 +23,6 @@ public class User {
     private String email;
 
     private String address;
+
+
 }
